@@ -18,6 +18,6 @@ The fisrt mail from Python!
 Mailstart=smtplib.SMTP()
 Mailstart.connect(Host,'25')
 #Mailstart.starttls()
-Mailstart.login('yineng999@sina.com','jy02308944')
+Mailstart.login('yineng999@sina.com','*******')
 Mailstart.sendmail(FROMWho,[ToWhom],BODY)
 Mailstart.quit()

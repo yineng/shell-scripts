@@ -177,7 +177,7 @@ if [[ $imoption = [Nn][Oo] ]];then
 break
 fi
 wget -qO- --no-check-certificate https://rhn.linux.ibm.com/pub/bootstrap/bootstrap.sh | /bin/bash
-rhnreg_ks --force --username=dstlex@us.ibm.com --password=wryi83ljgd
+rhnreg_ks --force --username=dstlex@us.ibm.com --password=********
 for package in 'gtk2-engines.*i686' 'gtk2-[0-9].*i686' 'libXtst.*i686' 'compat-libstdc++-33.
 i686' 'compat-libstdc++-33.x86_64'
 do
